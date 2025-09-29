@@ -190,7 +190,7 @@ const refreshUi = function() {
             break;
 
         case `defeat`:
-            textResult.innerHTML = `No chances left...`;
+            textResult.innerHTML = `Oops! You're out of chances.`;
             textResult.style.fontSize = '72px';
             break;
     }
